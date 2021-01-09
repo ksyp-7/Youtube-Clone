@@ -24,15 +24,15 @@ function Header() {
 
 
             <div className="header_search">
-            <input type='text' />
-            <SearchIcon />
+            <input placeholder="Search" type='text' />
+            <SearchIcon className="header_InputBtn"/>
             </div>
 
 
             <div className="header_icons">
-            <VideoCallIcon />
-            <AppsIcon />
-            <NotificationsActiveIcon />
+            <VideoCallIcon className="header_icon" />
+            <AppsIcon className="header_icon" />
+            <NotificationsActiveIcon className="header_icon" />
             <Avatar src="./ksyp.jpg" alt="Kashyap"/>
             </div>
         </div>
