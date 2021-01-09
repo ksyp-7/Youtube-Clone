@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <h1>Let's build youtube clone</h1>
   </React.StrictMode>,
   document.getElementById('root')
 );
