@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './Header';
 import reportWebVitals from './reportWebVitals';
+import Slidebar from './Slidebar';
+import Recomand from './Recomand'
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <div className="app_page">
+      <Slidebar />
+      <Recomand />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
