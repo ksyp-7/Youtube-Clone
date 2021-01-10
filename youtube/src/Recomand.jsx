@@ -5,8 +5,11 @@ function Recomand() {
     return (
         <div className="recomandedvideos">
             <h2>
-                this is where videos go
+                Recomanded
             </h2>
+            <div className="recomand_video">
+
+            </div>
         </div>
     )
 }

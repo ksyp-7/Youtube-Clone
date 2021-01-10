@@ -1,6 +1,14 @@
 .slide{
     flex: 0.2;
 }
+
+.slide > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .Row{
     display: flex;
     align-items: center;
@@ -10,8 +18,35 @@
     font-size: large !important;
 }
 .Row__{
+    flex: 1px;
     margin-left: 15px;
     font-size: 15px;
     font-weight: 500;
 
+}
+
+.Row:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.Row:hover >.Row_icon{
+ color: red;   
+}
+
+.Row:hover >.Row__{
+    font-weight: bold; 
+   }
+
+
+.Row.selected{
+    background-color: lightgray;
+}
+
+.Row.selected >.Row_icon{
+    color: red;
+}
+
+.Row.selected >.Row__{
+    font-weight: bold;
 }
