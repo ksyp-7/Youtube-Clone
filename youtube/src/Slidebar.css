@@ -1,0 +1,17 @@
+.slide{
+    flex: 0.2;
+}
+.Row{
+    display: flex;
+    align-items: center;
+}
+.Row_icon{
+    color: gray;
+    font-size: large !important;
+}
+.Row__{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
