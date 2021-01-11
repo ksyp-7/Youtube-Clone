@@ -1,5 +1,6 @@
 import React from 'react';
 import TuneIcon from '@material-ui/icons/Tune';
+import ChnnelRow from './ChnnelRow';
 import './Searchpage.css';
 
 export default function SearchPage() {
@@ -9,6 +10,9 @@ export default function SearchPage() {
                 <TuneIcon />
                 <h2>Filter</h2>
             </div>
+            <hr />
+            <ChnnelRow />
+            <hr />
         </div>
     )
 }

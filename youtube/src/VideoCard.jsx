@@ -5,7 +5,7 @@ import './Videocard.css';
 function VideoCard({image,channel,channelImage,title,views,timestamp}) {
     return (
         <div className="videoCard">
-            <img src={image} alt=""/>
+            <img className="VD" src={image} alt=""/>
             <div className="VideoCard_info">
                 <Avatar
                 className="VideoCard_Ava"
