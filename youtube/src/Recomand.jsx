@@ -58,7 +58,7 @@ function Recomand() {
                 title="Become a Web Devloper in 10! minutes | 2019/2020"
                 views="15.08M Views"
                 timestamp="5 daays ago"/>
-                <VideoCard
+                                <VideoCard
                 image="https://picsum.photos/200/300"
                 channel="Abc"
                 channelImage="https://picsum.photos/300/300 "
@@ -107,6 +107,7 @@ function Recomand() {
                 title="Become a Web Devloper in 10! minutes | 2019/2020"
                 views="15.08M Views"
                 timestamp="5 daays ago"/>
+
 
             </div>
         </div>

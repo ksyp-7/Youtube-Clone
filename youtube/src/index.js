@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './Header';
+import Header from './Header.jsx';
 import reportWebVitals from './reportWebVitals';
-import Slidebar from './Slidebar';
-import Recomand from './Recomand';
-import SearchPage from './SearchPage';
+import Slidebar from './Slidebar.jsx';
+import Recomand from './Recomand.jsx';
+import SearchPage from './SearchPage.jsx';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <Router>
       <Header />
       <Switch>
@@ -28,7 +28,7 @@ ReactDOM.render(
         </Route>
       </Switch>
     </Router>
-  </React.StrictMode>,
+    </React.Fragment>,
   /*<Header />
   */
   document.getElementById('root')
