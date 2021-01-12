@@ -1,5 +1,5 @@
 import React from 'react';
-import './videorow';
+import './videorow.css';
 
 function VideoRow({
     views,
